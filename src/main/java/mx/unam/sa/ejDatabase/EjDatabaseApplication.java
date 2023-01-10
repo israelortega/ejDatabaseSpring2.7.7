@@ -1,7 +1,7 @@
 package mx.unam.sa.ejDatabase;
 
 import mx.unam.sa.ejDatabase.models.Usuario;
-import mx.unam.sa.ejDatabase.models.repository.UsuarioRepo;
+import mx.unam.sa.ejDatabase.repository.UsuarioRepo;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

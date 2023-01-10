@@ -1,7 +1,7 @@
 /*
  * (c) UNAM, 2022
  */
-package mx.unam.sa.ejDatabase.models.repository;
+package mx.unam.sa.ejDatabase.repository;
 
 
 import mx.unam.sa.ejDatabase.models.Usuario;
