@@ -24,9 +24,9 @@ class Usuario implements Serializable {
     @Id
     @Column(name = "iNumEmp")
     Long numEmp;
-    @Column(name = "vcNombre", length=50)
+    @Column(name = "vcNombre", length=50, nullable = false)
     String nombre;
-    @Column(name = "vcAp_Pat", length=50)
+    @Column(name = "vcAp_Pat", length=50, nullable = false)
     String primerApp;
     @Column(name = "vcAp_Mat", length=50)
     String segundoApp;
