@@ -20,6 +20,7 @@ public class EjDatabaseApplication {
         return (args) -> {
             repository.save(new Usuario(10L,"A","B","C"));
             repository.save(new Usuario(20L,"D","E","F"));
+            repository.save(new Usuario(30L,"E","F","G"));
         };
     }
 }
